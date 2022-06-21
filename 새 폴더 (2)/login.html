@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+</head>
+    <style>
+    .nav {
+    height: 70px;
+    border-bottom: 1px solid black;
+    display:flex;
+    align-items: center;
+    }
+    .nav-right-items{
+    display: flex;
+    margin-left: auto;
+    }
+    .nav-item{
+    margin-left: 10px;
+    }
+    .nav-left-items{
+    margin-left: 25px;
+    margin-top: 150px;
+    
+    } 
+    .nav-item-l {
+        margin-top: 30px;
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        
+    }
+    .nav a {
+    text-decoration: none;
+    color: black;
+    }
+    .nav a:hover {
+    font-size: 120%;}  
+    
+    .title{
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 100px;
+        font-size: 25px;
+        font-weight:bold;
+        
+    }  
+    .subtitle{
+        
+        margin-left: 100px;
+        font-size: 20px;
+        font-weight : 300px;
+        margin-top: 50px;
+        display: flex;
+    }
+    .subtitle input {
+        width: 800px;
+    }
+    #btn {
+        width: 100px;
+    }
+    .btnCenter {
+        margin-left: 330px;
+        margin-top: 20px;
+    }
+    .subtitle p {
+        font-weight: bold;
+    }
+    .bank{
+        margin-top: 200px;
+    }
+    .title1 {
+    text-decoration: none;
+    color: black;
+    }
+    </style>
+<body>
+    <a href="index.html" class="title1"><h3>JH SHOP</h3></a>
+    <div class="nav">
+    <div class="nav-right-items">
+        
+        <div class="nav-item"><a href="login.html">LOGIN</a></div>
+        <div class="nav-item"><a href="joinUs.html">JOIN US</a></div>
+        <div class="nav-item">MY PAGE</div>
+        <div class="nav-item">CART</div>
+    </div>
+</div>
+
+    <div id="grid">
+    <div class="nav-left-items">
+        <div class="nav-item-l">BEST</div>
+        <div class="nav-item-l">SALE</div>
+        <div class="nav-item-l">OUTER</div>
+        <div class="nav-item-l">SUIT</div>
+        <div class="nav-item-l">TOP</div>
+        <div class="nav-item-l">BOTTOM</div>
+        <div class="nav-item-l">SHIRT</div>
+    </div>
+    <div class="main">
+        <div class="title">   
+            JOIN
+        </div>  
+    <div class="subtitle">
+        <form action="index.html">
+            <div>
+            <label for="id">ID</label>
+            <input type="text" id="id" placeholder="영문 소문자/숫자, 4-16자" maxlength="16" minlength="4" required>
+        </div>
+        <div>
+            <label for="pwd">PASSWORD</label>
+            <input type="password" id="pwd" placeholder="*******">
+        </div>
+        <div class="btnCenter">
+            <input id="btn" type="submit" value="LOGIN">
+        </div>
+        </form>
+        </div>
+        </div>
+        </div>
+    <div class="bank">
+<li>은행 정보</li>
+<li>국민은행 501001-04-375879</li>
+<li>카카오뱅크 3333-1471-74659</li>
+<li> 예금주: 이정혁</li>
+<li>고객센터 010-4494-4121</li>
+    </div>
+    
+</body>
+</html>
